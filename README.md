@@ -1,10 +1,10 @@
-#Project Summary
+*Project Summary*
 
 This Power BI portfolio project transforms a car dealership sales dataset into an interactive performance dashboard. It gives decision-makers a clear view of sales revenue, vehicle volume, average selling price, year-over-year growth, and performance across companies, dealers, regions, body styles, and colors.
 
 The project demonstrates an end-to-end business intelligence workflow using Excel, Power Query, data modeling, DAX, and Power BI dashboard design.
 
-#Business Objective
+*Business Objective*
 
 Automotive sales teams need more than a list of transactions. They need to understand whether sales are improving, which market segments are driving revenue, and where performance requires attention.
 
@@ -18,13 +18,13 @@ Which vehicle attributes—such as body style and color—drive sales?
 
 Which individual transactions contribute to the reported KPIs?
 
-#Dataset Overview
+*Dataset Overview*
 
 The Excel source contains 23,906 transaction records from 2 January 2022 to 31 December 2023.
 
-#The Power BI report contains two pages.
+The Power BI report contains two pages.
 
-#1. Overview
+*1. Overview*
 
 The Overview page provides an executive summary through KPI cards and interactive visuals:
 
@@ -44,7 +44,7 @@ Company-wise sales performance table
 
 Region, body style, transmission, and engine slicers
 
-#Data Model
+*Data Model*
 
 The report uses a simple analytical model:
 
@@ -58,7 +58,7 @@ This structure keeps the model easy to understand while enabling reliable time-i
 
 Core DAX Measures
 
-#The following examples represent the main calculation logic used in the dashboard.
+*The following examples represent the main calculation logic used in the dashboard.*
 
 Total Sales
 
@@ -146,10 +146,10 @@ If the source path has changed, update it in Transform data → Data source sett
 
 Use the slicers and page navigation to explore the dashboard.
 
-#Portfolio Value
+*Portfolio Value*
 
 This project demonstrates the ability to convert raw transactional data into an executive dashboard, define meaningful KPIs, build time-based comparisons, and communicate the drivers behind sales performance.
 
-#Disclaimer
+*Disclaimer*
 
 This project is intended for learning and portfolio presentation. The dataset does not represent live dealership operations, and the analysis should not be treated as an official business report.
